@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bolão Oscar 2026</title>
+</head>
+<body>
+
+<header>
+    <h1>Bolão Oscar 2026</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="indicados.html">Indicados</a></li>
+            <li><a href="analise.html">Análise</a></li>
+            <li><a href="bolao.html">Bolão</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<form>
+
+<fieldset>
+    <legend>Dados Pessoais</legend>
+
+    <label>Nome:</label>
+    <input type="text" required>
+
+    <br>
+
+    <label for="lugar_de_origem">Lugar de origem:</label>
+    <input type="text" id="lugar_de_origem" list="options" required>
+    
+    <datalist id="options">
+        <option value="Maceio"></option>
+        <option value="Recife"></option>
+        <option value="Rio de Janeiro"></option>
+        <option value="São Paulo"></option>
+    </datalist>
+
+    <br>
+
+    <label>Email:</label>
+    <input type="email" required>
+
+    <br>
+
+    <label>Senha de acesso:</label>
+    <input type="password" required>
+
+</fieldset>
+
+<fieldset>
+    <legend>Palpites</legend>
+
+    <label>Data que assistiu:</label>
+    <input type="date">
+
+    <br><br>
+
+    <label>Categoria favorita:</label>
+    <select>
+        <option>Melhor Filme</option>
+        <option>Melhor Diretor</option>
+        <option>Melhor Ator</option>
+        <option>Melhor Atriz</option>
+    </select>
+
+    <br><br>
+
+    <p>Ator favorito:</p>
+    <input type="radio" name="ator"> Wagner Moura
+    <input type="radio" name="ator"> Outro
+
+    <br><br>
+
+    <label>Nível de confiança:</label>
+    <input type="range" min="0" max="10">
+
+    <br><br>
+
+    <label>Justificativa técnica:</label><br>
+    <textarea rows="5" cols="40"></textarea>
+</fieldset>
+
+<br>
+
+<button type="submit">Enviar Palpite</button>
+
+</form>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Portal Oscar</p>
+    <p>Data da cerimônia: <time datetime="2026-03-15">15 de março de 2026</time></p>
+    <address>
+        Contato: <a href="mailto:contato@oscars2026.com">contato@oscars2026.com</a>
+    </address>
+</footer>
+
+</body>
+</html>
